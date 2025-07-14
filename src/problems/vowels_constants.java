@@ -18,7 +18,7 @@ public class vowels_constants {
         int constantscount=0;
         String Vowels="aeiouAEIOU";
         for(char c:str.toCharArray()){
-            if(Character.isLetter(c)){
+//            if(Character.isLetter(c)){
                 if(Vowels.indexOf(c)!=-1)
                 {
                     vowelscount++;
@@ -27,7 +27,7 @@ public class vowels_constants {
                     constantscount++;
                 }
 
-            }
+//            }
         }
         return new int[] {vowelscount,constantscount};
 

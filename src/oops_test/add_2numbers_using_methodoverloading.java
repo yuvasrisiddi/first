@@ -1,4 +1,4 @@
-package test;
+package oops_test;
 
 public class add_2numbers_using_methodoverloading {
     public static void main(String[] args){
